@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <!-- <header id="main-header">
+    </header> -->
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about me</a></li>
+          <li><a href="contact.html">contact me</a></li>
+          <li><a href="project.html">projects</a></li>
+        </ul>
+      </nav>
+    </div>
+    <section id="contact">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <form class="contact-form" action="your-backend-endpoint" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+        <div class="contact-info">
+          <p>
+            Email:
+            <a href="mailto:your-email@example.com"
+              >hetviparmar2603@gmail.com</a
+            >
+          </p>
+          <p>Phone: (123) 456-7890</p>
+          <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank"
+              >linkedin.com/in/your-profile</a
+            >
+          </p>
+          <p>
+            GitHub:
+            <a href="https://github.com/your-username" target="_blank"
+              >github.com/your-username</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
